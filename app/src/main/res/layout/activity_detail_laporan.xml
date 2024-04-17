@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detail"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_laporan">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="148dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="69dp"
+       />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_marginVertical="20dp"
+        android:paddingHorizontal="100dp"
+        >
+
+
+
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="101dp"
+        android:layout_height="22dp"
+        android:text="Nama"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+        <TextView
+            android:id="@+id/name_value"
+            android:layout_width="135dp"
+            android:layout_height="25dp"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="295dp" />
+
+
+        <TextView
+        android:id="@+id/tgl"
+        android:layout_width="101dp"
+        android:layout_height="22dp"
+        android:text="Tanggal"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+        <TextView
+            android:id="@+id/tglvalue"
+            android:layout_width="133dp"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="114dp"
+            android:layout_height="28dp"
+            android:text="Status"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+        <TextView
+            android:id="@+id/statusvalue"
+            android:layout_width="128dp"
+            android:layout_height="25dp"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+
+
+
+        <TextView
+        android:id="@+id/pengadaan"
+        android:layout_width="120dp"
+        android:layout_height="38dp"
+        android:text="Jenis Pengaduan"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+
+        <TextView
+            android:id="@+id/pengadaanvalue"
+            android:layout_width="129dp"
+            android:layout_height="25dp"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="101dp"
+            android:layout_marginTop="4dp"
+            android:layout_height="22dp"
+            android:text="Deskripsi"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="93dp"
+            tools:layout_editor_absoluteY="254dp" />
+
+        <TextView
+            android:id="@+id/descriptionvalue"
+            android:layout_width="101dp"
+            android:layout_height="91dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="254dp" />
+    </GridLayout>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="85dp"
+        android:isIndicator="false"
+        android:numStars="5"
+        android:stepSize="1"
+        tools:layout_editor_absoluteY="498dp" />
+
+
+
+</LinearLayout>
